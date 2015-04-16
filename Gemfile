@@ -17,5 +17,6 @@ end
 gem 'simplecov', '~> 0.8'
 
 gem 'rubocop', "~> 0.23.0", :platform => [:ruby_19, :ruby_20, :ruby_21]
+gem 'nokogiri'
 
 eval File.read('Gemfile-custom') if File.exist?('Gemfile-custom')
